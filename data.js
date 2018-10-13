@@ -24,3 +24,11 @@ console.log(bDayYear);
 console.log(likesAnime);
 console.log(likesChess);
 console.log(findingSomeoneToLove);
+let message1 = "nerds smh -david"
+console.log(message1)
+let message2 = "U Rite -jacob"
+console.log(message2)
+let message3 = "I think we did it wrong -jacob"
+console.log(message3)
+let important = "COMPUTER IS 20 DAVID ALSO HAS THE SAME NUMBER"
+console.log(important)
