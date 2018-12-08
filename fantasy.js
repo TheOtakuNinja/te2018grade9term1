@@ -19,7 +19,7 @@ let fantasyName;
 *******************************************************************************/
 
 function getNewFirstName() {
-let getNewFirstName = 'Jacob' ;
+let getNewFirstName = "Jacob";
 return getNewFirstName [0];
 }
 console.log(getNewFirstName);
