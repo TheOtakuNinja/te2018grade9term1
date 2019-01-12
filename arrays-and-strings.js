@@ -1,39 +1,39 @@
 
-//let jordans = ['Jordan 13s', 'Jordan 5s', 'Jordan 10s', 'Jordan 7s'];
+let jordans = ['Jordan 13s', 'Jordan 5s', 'Jordan 10s', 'Jordan 7s'];
 
 //print out first pair of Js I found
 
-//console.log(jordans[0]);
+console.log(jordans[0]);
 
-//console.log(jordans.length);
+console.log(jordans.length);
 
-//console.log(jordans.toString());
+console.log(jordans.toString());
 
-//jordans.push('Jordan 1s');
+jordans.push('Jordan 1s');
 
 //removes last item
-//console.log(jordans.pop());
+console.log(jordans.pop());
 
-//jordans.shift('Jordan 5s');
+jordans.shift('Jordan 5s');
 
 
 
-//
-// strings
-//
-// let name = "Donavan";
-//
-// console.log(name[0]);
-//
-// console.log(name.length);
-//
-// console.log(name.charAt(6));
-//
-// console.log(name.toUpperCase());
-//
-// console.log(name.toLowerCase());
-//
-// console.log(name.startsWith('D'));
+
+//strings
+
+let name = "Donavan";
+
+console.log(name[0]);
+
+console.log(name.length);
+
+console.log(name.charAt(6));
+
+console.log(name.toUpperCase());
+
+console.log(name.toLowerCase());
+
+console.log(name.startsWith('D'));
 
 let family = ['Boutsady', 'Lai', 'Joshua', 'kerry', 'becky', 'becky', 'elaine', 'Jamoni', 'Carson', 'Jeff'];
 

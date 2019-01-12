@@ -2,13 +2,13 @@
 const READLINE = require("readline-sync");
 
 // global variables
-let firstName;
-let lastName;
-let momMaidenName;
-let cityBorn;
-let dreamCar;
-let street;
-let fantasyName;
+let firstName = 'Jacob';
+let lastName = 'sonhthila';
+let momMaidenName = 'Saeturn';
+let cityBorn = 'oakland';
+let dreamCar = 'Ferrari';
+let street = 'Grey st';
+let fantasyName = 'TheOtakuNinja';
 
 /******************************************************************************
                                   getNewFirstName()
@@ -18,11 +18,12 @@ let fantasyName;
   real last name.
 *******************************************************************************/
 
-function getNewFirstName() {
-let getNewFirstName = "Jacob";
-return getNewFirstName [0];
+function getNewFirstName(fName, lName) {
+let first3ofFirstName  = fName.substring(0,3);
+let first2ofLastName = lName.substring(0,2);
+return first3ofFirstName + first2ofLastName;
 }
-console.log(getNewFirstName);
+console.log(getNewFirstName(firstName, lastName));
 /******************************************************************************
                                   getNewLastName()
 
@@ -31,10 +32,12 @@ console.log(getNewFirstName);
   city where they were born.
 *******************************************************************************/
 
-function getNewLastName() {
-
+function getNewLastName(momName, cityBorn) {
+let first2ofMom = momName.substring(0,2);
+let first3ofCity = cityBorn.substring(0,3);
+return first2ofMom + first3ofCity;
 }
-
+console.log(getNewLastName(momMaidenName, cityBorn));
 /******************************************************************************
                                   getTitle()
 
@@ -42,10 +45,13 @@ function getNewLastName() {
   letters of their real last name, reversed, and the model of their dream car.
 *******************************************************************************/
 
-function getTitle() {
-
+function getTitle(lastName, newCar) {
+let reversedLastName1 = (lastName.charAt(8));
+let reversedLastName2 = (lastName.charAt(7));
+let reversedLastName3 = (lastName.charAt(6));
+return reversedLastName1 + reversedLastName2 + reversedLastName3 + newCar;
 }
-
+console.log(getTitle(lastName, dreamCar));
 /******************************************************************************
                                   getHonorific()
 
@@ -53,10 +59,10 @@ function getTitle() {
   title, " of ", and the name of the street they live on.
 *******************************************************************************/
 
-function getHonorific() {
-
+function getHonorific(title, streets) {
+return title + streets;
 }
-
+console.log(getHonorific(getTitle, street));
 /******************************************************************************
                                      run()
 

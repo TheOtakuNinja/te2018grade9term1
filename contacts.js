@@ -1,4 +1,4 @@
-// Author: FirstName lastName
+// Author: JACOB SONHTHILA
 
 /******************************************************************************
                                 constant variables
@@ -27,7 +27,7 @@ const READLINE = require("READLINE-sync");
   not (false).
 *******************************************************************************/
 
-let contacts; 
+let contacts;
 let quit;
 
 /******************************************************************************
@@ -38,9 +38,9 @@ let quit;
 *******************************************************************************/
 
 function printGreeting() {
-
+console.log('Ello yes Ello without the H cause ya know it got Hell in Hello ya know but well welcome to my smart contacts there are many bterr ones yet you choose me nice anyway I am Jacob Sonhthila ');
 }
-
+console.log(printGreeting[]);
 /******************************************************************************
                                   setupApp()
 
